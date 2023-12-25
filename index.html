@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GreenGem: Эко-стартап</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Навигационная панель Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GreenGem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Особенности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Шапка страницы с названием проекта и описанием -->
+    <header class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4">GreenGem: Эко-стартап</h1>
+                <p class="lead">Разрабатываем и продаем устойчивые и экологически чистые товары для заботы о нашей планете.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img.png" alt="GreenGem Logo" class="img-fluid rounded">
+            </div>
+        </div>
+    </header>
+
+    <!-- Блок с основными особенностями/преимуществами проекта -->
+    <section id="features" class="container my-5">
+        <h2 class="text-center mb-4">Особенности GreenGem</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>1. Экологически чистые товары</h3>
+                <p>Наш ассортимент включает в себя товары, произведенные с учетом экологических стандартов и безопасных для здоровья.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>2. Устойчивое производство</h3>
+                <p>Мы стремимся к минимизации воздействия на окружающую среду в процессе производства и доставки наших товаров.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>3. Стремление к улучшению</h3>
+                <p>Мы постоянно работаем над разработкой новых экологически чистых решений и совершенствованием нашего ассортимента.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с формой обратной связи и контактами -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Свяжитесь с нами</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Ваш Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Ваше сообщение</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал страницы -->
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p>&copy; 2023 GreenGem. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap JS (Popper.js и Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
